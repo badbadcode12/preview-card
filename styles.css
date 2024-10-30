@@ -83,13 +83,19 @@
 .course-subtitle {
     color: var(--gray-500);
 }
+
  .author {
     display: flex;
     flex-direction: row;
     gap: 12px;
     align-items: center;
  }
+
  .preview-avatar {
     width: 32px;
     height: 32px;
+ }
+ .course-title:hover {
+    color: var(--yellow);
+    cursor: pointer;
  }
